@@ -22,7 +22,7 @@
                     </ul>
          </nav> <?php  } ?>
 
-          <h2><?php the_title();?> | I am the page.php file</h2>
+          <h2><?php the_title();?> | I am the page.php files</h2>
           <p><?php the_content(); ?></p> 
         </article>
 
