@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/ndnocv51/public_html/
+    - export DEPLOYPATH=/home/ndnocv51/repositories/LearnWordPressPhpCode_v.0.2
     - /bin/cp * $DEPLOYPATH
