@@ -29,7 +29,7 @@ define( 'DB_USER', 'ndnocv51_tofic-88' );
 define( 'DB_PASSWORD', '$xP8*CASBg?{' );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'ndnocv51.mywhc.ca' );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
