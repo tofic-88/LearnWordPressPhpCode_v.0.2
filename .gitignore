@@ -3,7 +3,6 @@
 !.gitignore
 !.cpanel.yml
 !wp-content/
-!wp-config.php
 
 
 # Ignore everything in the "wp-content" directory, except the "plugins"
