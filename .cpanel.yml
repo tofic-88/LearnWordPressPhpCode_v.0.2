@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/ndnocv51/ndnocv51.mywhc.ca/tofic-88/LearnWordPressPhpCode_v.0.2
+    - export DEPLOYPATH=/home/ndnocv51/learn-wordpress.com
     - /bin/cp * $DEPLOYPATH
