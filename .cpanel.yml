@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/ndnocv51/learn-wordpress.com
+    - export DEPLOYPATH=/home/ndnocv51/numidia-web.ca/
     - /bin/cp * $DEPLOYPATH
