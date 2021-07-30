@@ -10,7 +10,7 @@ Template Name: Special Layout
 
 <div class="container">
   <div class="row">
-    <div class="col-sm-8">
+    <div class="col-sm-9">
 
     <?php
 
@@ -37,10 +37,8 @@ Template Name: Special Layout
 
 
 
-    <div class="col-sm-4">
-      <h3>Column 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    <div class="col-sm-3">
+      <?php dynamic_sidebar('sidebar1'); ?>
     </div>
   </div>
 </div>

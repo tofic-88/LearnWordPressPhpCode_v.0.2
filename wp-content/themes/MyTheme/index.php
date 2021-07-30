@@ -6,7 +6,6 @@
                ?>   <div class="flex-container">
                         <div class="left-column">
 
-
                               <?php    if ( $wp_query->have_posts()) :
                                   while ($wp_query->have_posts()) : $wp_query->the_post();?>
 
@@ -42,7 +41,6 @@
                                 else :
                                   echo 'No Content found!';
                                 endif; ?>
-
                         </div>
 
                         <div class="right-column">
