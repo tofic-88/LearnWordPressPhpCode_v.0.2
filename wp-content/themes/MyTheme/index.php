@@ -43,7 +43,6 @@
                                   echo 'No Content found!';
                                 endif; ?>
 
-
                         </div>
 
                         <div class="right-column">
