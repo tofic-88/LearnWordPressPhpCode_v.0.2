@@ -10,6 +10,10 @@ body {
   color: #333;
 }
 
+h2 {
+  font-size: 1.45rem;
+}
+
 a:link,
 a:visited {
   color: #98c431;
@@ -169,4 +173,22 @@ article.page h2 {
   border-bottom: 1px solid #ddd;
   color: #333;
   cursor: default;
+}
+
+/*  Footer Widgets */
+
+.myclass-footer-widgets-container {
+  color: white;
+  padding: 10px;
+}
+
+.myclass-footer-widget-column {
+  width: 25%;
+  float: left;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+
+.site-footer {
+  background-color: #343a40;
 }
