@@ -34,13 +34,11 @@ Template Name: Special Layout
 
     </div>
 
-
-
-    <div class="myclass-specialTemplate-sidebar-column">
-      <?php dynamic_sidebar('sidebar1'); ?>
-    </div>
+    <!-- Sidebar Column -->
+    <?php get_sidebar(); ?>
+    
   
-</div>
+</div>       <!-- site-content -->
 
 
 <?php
