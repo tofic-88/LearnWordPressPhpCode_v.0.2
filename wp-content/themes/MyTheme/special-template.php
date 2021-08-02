@@ -8,9 +8,10 @@ Template Name: Special Layout
  
 ?>
 
-<div class="container">
-  <div class="row">
-    <div class="col-sm-9">
+<div class="myclass-specialTemplate-container clearfix">
+
+
+    <div class="myclass-specialTemplate-left-column">
 
     <?php
 
@@ -31,16 +32,14 @@ Template Name: Special Layout
                   endif; ?>
 
 
-
-
     </div>
 
 
 
-    <div class="col-sm-3">
+    <div class="myclass-specialTemplate-sidebar-column">
       <?php dynamic_sidebar('sidebar1'); ?>
     </div>
-  </div>
+  
 </div>
 
 

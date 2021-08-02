@@ -43,31 +43,41 @@ function mytheme_widgets_init() {
 // Add our Widget location Sidebar
 register_sidebar( array(
       'name'          => 'Sidebar',
-      'id'            => 'sidebar1'
-  ) );
+      'id'            => 'sidebar1',
+      'before_widget' => '<div class="widget-item">',
+      'after_widget'  => '</div>'
+       ) );
 
 // Add our Widget location footer column 1
 register_sidebar( array(
       'name'          => 'Footer Column 1',
-      'id'            => 'footer1'
+      'id'            => 'footer1',
+      'before_widget' => '<div class="widget-item">',
+      'after_widget'  => '</div>'
 ) );
 
 // Add our Widget location footer column 2
 register_sidebar( array(
       'name'          => 'Footer Column 2',
-      'id'            => 'footer2'
+      'id'            => 'footer2',
+      'before_widget' => '<div class="widget-item">',
+      'after_widget'  => '</div>'
 ) );
 
 // Add our Widget location footer column 3
 register_sidebar( array(
       'name'          => 'Footer Column 3',
-      'id'            => 'footer3'
+      'id'            => 'footer3',
+      'before_widget' => '<div class="widget-item">',
+      'after_widget'  => '</div>'
 ) );
 
 // Add our Widget location footer column 4
 register_sidebar( array(
       'name'          => 'Footer Column 4',
-      'id'            => 'footer4'
+      'id'            => 'footer4',
+      'before_widget' => '<div class="widget-item">',
+      'after_widget'  => '</div>'
 ) );
 
 }

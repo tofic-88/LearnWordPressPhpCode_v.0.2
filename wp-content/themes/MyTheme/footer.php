@@ -5,25 +5,33 @@
             <!-- footer widgets -->
             <div class="myclass-footer-widgets-container clearfix">
 
-                            <!-- footer widget column 1-->
+                            <!-- footer-widget column 1-->
+                            <?php if(is_active_sidebar('footer1')) : ?>
                                 <div class="myclass-footer-widget-column">
                                     <?php dynamic_sidebar('footer1'); ?>
                                 </div>
+                            <?php endif; ?>
 
-                            <!-- footer widget column 2-->
+                             <!-- footer-widget column 2-->
+                             <?php if(is_active_sidebar('footer2')) : ?>
                                 <div class="myclass-footer-widget-column">
                                     <?php dynamic_sidebar('footer2'); ?>
                                 </div>
+                             <?php endif; ?>
 
-                            <!-- footer widget column 3-->
+                             <!-- footer-widget column 3-->
+                             <?php if(is_active_sidebar('footer3')) : ?>
                                 <div class="myclass-footer-widget-column">
                                     <?php dynamic_sidebar('footer3'); ?>
                                 </div>
-                                
-                            <!-- footer widget column 4-->
+                            <?php endif; ?>
+
+                             <!-- footer-widget column 4-->
+                             <?php if(is_active_sidebar('footer4')) : ?>
                                 <div class="myclass-footer-widget-column">
                                     <?php dynamic_sidebar('footer4'); ?>
                                 </div>
+                             <?php endif; ?>
              </div>
 
             

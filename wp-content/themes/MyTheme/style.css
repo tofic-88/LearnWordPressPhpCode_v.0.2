@@ -192,3 +192,19 @@ article.page h2 {
 .site-footer {
   background-color: #343a40;
 }
+
+/* Special Template */
+
+.myclass-specialTemplate-container {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.myclass-specialTemplate-left-column {
+  width: 75%;
+  float: left;
+}
+
+.myclass-specialTemplate-sidebar-column {
+  float: right;
+}
